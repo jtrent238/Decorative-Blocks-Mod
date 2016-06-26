@@ -1,16 +1,16 @@
 [
 {
   "modid": "decorationmod",
-  "name": "§2jtrent238's Decoration Mod",
-  "description": "§2Mods Made By jtrent238",
-  "version": "§b 1.0.0.0",
-  "mcversion": "§2 1.7.10",
-  "url": "§2https://youtube.com/thejtrent238",
-  "updateUrl": "",
-  "authorList": ["jtrent238"],
-  "credits": "§2jtrent238",
+  "name": "§2§ljtrent238's Decoration Mod",
+  "description": "§2§lAdds lots of Decorative Blocks to Minecraft.",
+  "version": "§b§ 1.0.0.1",
+  "mcversion": "§2§l 1.7.10",
+  "url": "§2§l https://youtube.com/thejtrent238",
+  "updateUrl": "§2§l http://www.planetminecraft.com/mod/decorative-blocks-mod/",
+  "authorList": ["§2§ljtrent238"],
+  "credits": "§2§ljtrent238, §d§lcpetry",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["jtcoremod"]
 }
 ]

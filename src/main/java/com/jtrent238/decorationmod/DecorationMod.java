@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
-@Mod(modid="decorationmod", name="jtrent238's Decoration Mod", version="1.0.0.0")
+@Mod(modid="decorationmod", name="jtrent238's Decoration Mod", version="1.0.0.1")
 public class DecorationMod
 {
 
@@ -22,7 +22,7 @@ public class DecorationMod
 	
 	@Instance(MODID)
     public static DecorationMod instance;
-	public static final String MODVERSION = "1.0.0.0";
+	public static final String MODVERSION = "1.0.0.1";
 
 	@ForgeSubscribe(priority = EventPriority.NORMAL)
     public void eventHandler(RenderGameOverlayEvent event) {
@@ -75,11 +75,11 @@ public static CreativeTabs DecorationMod = new CreativeTabs("DecorationMod")
 {
 	public Item getTabIconItem() {
 
-		return new ItemStack(Items.diamond).getItem();
+		return new ItemStack(BlockLoader.BlockTextiles1).getItem();
 		//Old Icon//return new ItemStack(Items.golden_apple).getItem();
 	}
 	public boolean hasSearchBar(){
-		return true;
+		return false;
 	}
 
 	}
