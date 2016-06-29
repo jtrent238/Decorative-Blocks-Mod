@@ -1,5 +1,10 @@
 package com.jtrent238.decorationmod;
 
+import com.jtrent238.decorationmod.blocks.BlockBrick1;
+import com.jtrent238.decorationmod.blocks.BlockBrick2;
+import com.jtrent238.decorationmod.blocks.BlockBrick3;
+import com.jtrent238.decorationmod.blocks.BlockBrick4;
+import com.jtrent238.decorationmod.blocks.BlockBrick5;
 import com.jtrent238.decorationmod.blocks.BlockClouds1;
 import com.jtrent238.decorationmod.blocks.BlockClouds2;
 import com.jtrent238.decorationmod.blocks.BlockClouds3;
@@ -7,6 +12,8 @@ import com.jtrent238.decorationmod.blocks.BlockClouds4;
 import com.jtrent238.decorationmod.blocks.BlockFractialNoise1;
 import com.jtrent238.decorationmod.blocks.BlockGradient1;
 import com.jtrent238.decorationmod.blocks.BlockNoise1;
+import com.jtrent238.decorationmod.blocks.BlockNormalMap1;
+import com.jtrent238.decorationmod.blocks.BlockNormalMap2;
 import com.jtrent238.decorationmod.blocks.BlockPerlinNoise1;
 import com.jtrent238.decorationmod.blocks.BlockTGO_Logo;
 import com.jtrent238.decorationmod.blocks.BlockTerrain1;
@@ -25,7 +32,17 @@ import com.jtrent238.decorationmod.blocks.BlockTextiles15;
 import com.jtrent238.decorationmod.blocks.BlockTextiles16;
 import com.jtrent238.decorationmod.blocks.BlockTextiles17;
 import com.jtrent238.decorationmod.blocks.BlockTextiles18;
+import com.jtrent238.decorationmod.blocks.BlockTextiles19;
 import com.jtrent238.decorationmod.blocks.BlockTextiles2;
+import com.jtrent238.decorationmod.blocks.BlockTextiles20;
+import com.jtrent238.decorationmod.blocks.BlockTextiles21;
+import com.jtrent238.decorationmod.blocks.BlockTextiles22;
+import com.jtrent238.decorationmod.blocks.BlockTextiles23;
+import com.jtrent238.decorationmod.blocks.BlockTextiles24;
+import com.jtrent238.decorationmod.blocks.BlockTextiles25;
+import com.jtrent238.decorationmod.blocks.BlockTextiles26;
+import com.jtrent238.decorationmod.blocks.BlockTextiles27;
+import com.jtrent238.decorationmod.blocks.BlockTextiles28;
 import com.jtrent238.decorationmod.blocks.BlockTextiles3;
 import com.jtrent238.decorationmod.blocks.BlockTextiles4;
 import com.jtrent238.decorationmod.blocks.BlockTextiles5;
@@ -64,6 +81,16 @@ public class BlockLoader {
 		public static Block BlockTerrain4;
 		public static Block BlockTerrain5;
 		public static Block BlockTerrain6;
+		public static Block BlockTextiles28;
+		public static Block BlockTextiles27;
+		public static Block BlockTextiles26;
+		public static Block BlockTextiles25;
+		public static Block BlockTextiles24;
+		public static Block BlockTextiles23;
+		public static Block BlockTextiles22;
+		public static Block BlockTextiles21;
+		public static Block BlockTextiles20;
+		public static Block BlockTextiles19;
 		public static Block BlockTextiles18;
 		public static Block BlockTextiles17;
 		public static Block BlockTextiles16;
@@ -90,9 +117,15 @@ public class BlockLoader {
 		public static Block BlockWood3;
 		public static Block BlockWood4;
 		public static Block BlockWood5;
+		public static Block BlockBrick1;
+		public static Block BlockBrick2;
+		public static Block BlockBrick3;
+		public static Block BlockBrick4;
+		public static Block BlockBrick5;
+		public static Block BlockNormalMap1;
+		public static Block BlockNormalMap2;
 	
 	public static void loadBlocks() {
-		// TODO Auto-generated method stub
 		
 		BlockNoise1 = new BlockNoise1(Material.ground).setBlockName("BlockNoise1").setBlockTextureName("decorationmod:BlockNoise1").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
 		BlockTGO_Logo = new BlockTGO_Logo(Material.ground).setBlockName("BlockTGO_Logo").setBlockTextureName("decorationmod:BlockTGO_Logo").setHardness(3F).setStepSound(Block.soundTypeStone);
@@ -108,6 +141,16 @@ public class BlockLoader {
 		BlockTerrain4 = new BlockTerrain4(Material.ground).setBlockName("BlockTerrain4").setBlockTextureName("decorationmod:BlockTerrain4").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
 		BlockTerrain5 = new BlockTerrain5(Material.ground).setBlockName("BlockTerrain5").setBlockTextureName("decorationmod:BlockTerrain5").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
 		BlockTerrain6 = new BlockTerrain6(Material.ground).setBlockName("BlockTerrain6").setBlockTextureName("decorationmod:BlockTerrain6").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles28 = new BlockTextiles28(Material.ground).setBlockName("BlockTextiles28").setBlockTextureName("decorationmod:BlockTextiles28").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles27 = new BlockTextiles27(Material.ground).setBlockName("BlockTextiles27").setBlockTextureName("decorationmod:BlockTextiles27").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles26 = new BlockTextiles26(Material.ground).setBlockName("BlockTextiles26").setBlockTextureName("decorationmod:BlockTextiles26").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles25 = new BlockTextiles25(Material.ground).setBlockName("BlockTextiles25").setBlockTextureName("decorationmod:BlockTextiles25").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles24 = new BlockTextiles24(Material.ground).setBlockName("BlockTextiles24").setBlockTextureName("decorationmod:BlockTextiles24").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles23 = new BlockTextiles23(Material.ground).setBlockName("BlockTextiles23").setBlockTextureName("decorationmod:BlockTextiles23").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles22 = new BlockTextiles22(Material.ground).setBlockName("BlockTextiles22").setBlockTextureName("decorationmod:BlockTextiles22").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles21 = new BlockTextiles21(Material.ground).setBlockName("BlockTextiles21").setBlockTextureName("decorationmod:BlockTextiles21").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles20 = new BlockTextiles20(Material.ground).setBlockName("BlockTextiles20").setBlockTextureName("decorationmod:BlockTextiles20").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockTextiles19 = new BlockTextiles19(Material.ground).setBlockName("BlockTextiles19").setBlockTextureName("decorationmod:BlockTextiles19").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
 		BlockTextiles18 = new BlockTextiles18(Material.ground).setBlockName("BlockTextiles18").setBlockTextureName("decorationmod:BlockTextiles18").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
 		BlockTextiles17 = new BlockTextiles17(Material.ground).setBlockName("BlockTextiles17").setBlockTextureName("decorationmod:BlockTextiles17").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
 		BlockTextiles16 = new BlockTextiles16(Material.ground).setBlockName("BlockTextiles16").setBlockTextureName("decorationmod:BlockTextiles16").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
@@ -134,6 +177,14 @@ public class BlockLoader {
 		BlockWood3 = new BlockWood3(Material.ground).setBlockName("BlockWood3").setBlockTextureName("decorationmod:BlockWood3").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
 		BlockWood4 = new BlockWood4(Material.ground).setBlockName("BlockWood4").setBlockTextureName("decorationmod:BlockWood4").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
 		BlockWood5 = new BlockWood5(Material.ground).setBlockName("BlockWood5").setBlockTextureName("decorationmod:BlockWood5").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockBrick1 = new BlockBrick1(Material.ground).setBlockName("BlockBrick1").setBlockTextureName("decorationmod:BlockBrick1").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockBrick2 = new BlockBrick2(Material.ground).setBlockName("BlockBrick2").setBlockTextureName("decorationmod:BlockBrick2").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockBrick3 = new BlockBrick3(Material.ground).setBlockName("BlockBrick3").setBlockTextureName("decorationmod:BlockBrick3").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockBrick4 = new BlockBrick4(Material.ground).setBlockName("BlockBrick4").setBlockTextureName("decorationmod:BlockBrick4").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockBrick5 = new BlockBrick5(Material.ground).setBlockName("BlockBrick5").setBlockTextureName("decorationmod:BlockBrick5").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockNormalMap1 = new BlockNormalMap1(Material.ground).setBlockName("BlockNormalMap1").setBlockTextureName("decorationmod:BlockNormalMap1").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		BlockNormalMap2 = new BlockNormalMap2(Material.ground).setBlockName("BlockNormalMap2").setBlockTextureName("decorationmod:BlockNormalMap2").setHardness(3F).setStepSound(Block.soundTypeStone).setCreativeTab(DecorationMod.DecorationMod);
+		
 		
 		registerBlocks();
 	}
@@ -153,6 +204,16 @@ public class BlockLoader {
 		GameRegistry.registerBlock(BlockTerrain4, "BlockTerrain4");
 		GameRegistry.registerBlock(BlockTerrain5, "BlockTerrain5");
 		GameRegistry.registerBlock(BlockTerrain6, "BlockTerrain6");
+		GameRegistry.registerBlock(BlockTextiles28, "BlockTextiles28");
+		GameRegistry.registerBlock(BlockTextiles27, "BlockTextiles27");
+		GameRegistry.registerBlock(BlockTextiles26, "BlockTextiles26");
+		GameRegistry.registerBlock(BlockTextiles25, "BlockTextiles25");
+		GameRegistry.registerBlock(BlockTextiles24, "BlockTextiles24");
+		GameRegistry.registerBlock(BlockTextiles23, "BlockTextiles23");
+		GameRegistry.registerBlock(BlockTextiles22, "BlockTextiles22");
+		GameRegistry.registerBlock(BlockTextiles21, "BlockTextiles21");
+		GameRegistry.registerBlock(BlockTextiles20, "BlockTextiles20");
+		GameRegistry.registerBlock(BlockTextiles19, "BlockTextiles19");
 		GameRegistry.registerBlock(BlockTextiles18, "BlockTextiles18");
 		GameRegistry.registerBlock(BlockTextiles17, "BlockTextiles17");
 		GameRegistry.registerBlock(BlockTextiles16, "BlockTextiles16");
@@ -179,7 +240,14 @@ public class BlockLoader {
 		GameRegistry.registerBlock(BlockWood3, "BlockWood3");
 		GameRegistry.registerBlock(BlockWood4, "BlockWood4");
 		GameRegistry.registerBlock(BlockWood5, "BlockWood5");
+		GameRegistry.registerBlock(BlockBrick1, "BlockBrick1");
+		GameRegistry.registerBlock(BlockBrick2, "BlockBrick2");
+		GameRegistry.registerBlock(BlockBrick3, "BlockBrick3");
+		GameRegistry.registerBlock(BlockBrick4, "BlockBrick4");
+		GameRegistry.registerBlock(BlockBrick5, "BlockBrick5");
+		GameRegistry.registerBlock(BlockNormalMap1, "BlockNormalMap1");
+		GameRegistry.registerBlock(BlockNormalMap2, "BlockNormalMap2");
 		
-		
+			
 	}
 }

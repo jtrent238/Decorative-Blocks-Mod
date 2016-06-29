@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
-@Mod(modid="decorationmod", name="jtrent238's Decoration Mod", version="1.0.0.1")
+@Mod(modid="decorationmod", name="jtrent238's Decoration Mod", version="1.0.0.2")
 public class DecorationMod
 {
 
@@ -22,7 +22,7 @@ public class DecorationMod
 	
 	@Instance(MODID)
     public static DecorationMod instance;
-	public static final String MODVERSION = "1.0.0.1";
+	public static final String MODVERSION = "1.0.0.2";
 
 	@ForgeSubscribe(priority = EventPriority.NORMAL)
     public void eventHandler(RenderGameOverlayEvent event) {
